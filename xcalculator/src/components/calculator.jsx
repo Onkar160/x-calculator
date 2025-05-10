@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Calculator() {
-  const buttons = [7, 8, 9, "+", 4, 5, 6, 0, 1, 2, 3, "*", "C", 0, "=", "/"];
+  const buttons = [7, 8, 9, "+", 4, 5, 6, "-", 1, 2, 3, "*", "C", 0, "=", "/"];
   const [input, setInput] = useState("");
   const [result, setResult] = useState("");
 
